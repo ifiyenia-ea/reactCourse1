@@ -10,3 +10,19 @@ ReactDOM.render(
   </ul>,
   document.getElementById("list")
 );
+
+function MainContent() {
+  return <h1>I'm learning react again!</h1>;
+}
+
+function AnotherOne() {
+  return <h3>...which apparently is well needed...</h3>;
+}
+
+ReactDOM.render(
+  <div>
+    <MainContent />
+    <AnotherOne />
+  </div>,
+  document.getElementById("content")
+);
