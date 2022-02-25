@@ -1,11 +1,17 @@
 body {
   margin: 20px;
+  width: 320px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 .nav {
   display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 50px;
 }
 
 .nav-items {

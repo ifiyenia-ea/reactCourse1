@@ -100,7 +100,7 @@ function Header() {
     <div>
       <header className="header">
         <nav className="nav">
-          <img src="images/React.svg" width="40px" />
+          <img src="images/React.svg"  className="nav-logo" />
           <ul className="nav-items">
             <li>Pricing</li>
             <li>About</li>
@@ -115,7 +115,7 @@ function Header() {
 function Main() {
   return (
     <div>
-      <h1>Why I'm excited to learn react (better)!</h1>
+      <h1>Why I'm excited to learn React (better)!</h1>
       <ol>
         <li>To understand it all better and in depth</li>
         <li>To help me get a job</li>
