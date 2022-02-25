@@ -64,6 +64,7 @@ function TemporaryName() {
 
 // New challenge
 
+/*
 function Page() {
   return (
     <div>
@@ -86,4 +87,64 @@ function Page() {
   );
 }
 
-ReactDOM.render(<Page />, document.getElementById("challenge1"));
+*/
+
+// ReactDOM.render(<Page />, document.getElementById("challenge1"));
+
+// a react component is a function which renders react elements
+
+// new challenge:
+
+function Header() {
+  return (
+    <div>
+      <header className="header">
+        <nav className="nav">
+          <img src="images/React.svg" width="40px" />
+          <ul className="nav-items">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  );
+}
+
+function Main() {
+  return (
+    <div>
+      <h1>Why I'm excited to learn react (better)!</h1>
+      <ol>
+        <li>To understand it all better and in depth</li>
+        <li>To help me get a job</li>
+        <li>It's fun</li>
+      </ol>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div>
+      <footer>
+        <small>© 2022 Hyde development. All rights reserved.</small>
+      </footer>
+    </div>
+  );
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.render(<Page />, document.getElementById("challenge"));
+
+// header / footer also parents
