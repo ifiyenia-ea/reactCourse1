@@ -20,3 +20,4 @@ const content = (
 
 ReactDOM.render(navbar, document.getElementById("nav"));
 ReactDOM.render(content, document.getElementById("content"));
+
