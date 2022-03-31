@@ -20,7 +20,7 @@ function Header() {
 
 function Main() {
   return (
-    <div>
+    <div className="main">
       <h1>Why I'm excited to learn React (better)!</h1>
       <ul>
         <li>To understand it all better and in depth</li>
@@ -33,7 +33,7 @@ function Main() {
 
 function Footer() {
   return (
-    <div>
+    <div className="footer">
       <footer>
         <small>© 2022 Hyde development. All rights reserved.</small>
       </footer>
