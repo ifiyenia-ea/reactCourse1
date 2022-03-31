@@ -22,11 +22,11 @@ function Main() {
   return (
     <div>
       <h1>Why I'm excited to learn React (better)!</h1>
-      <ol>
+      <ul>
         <li>To understand it all better and in depth</li>
         <li>To help me for when I start working in August</li>
         <li>It's fun</li>
-      </ol>
+      </ul>
     </div>
   );
 }
